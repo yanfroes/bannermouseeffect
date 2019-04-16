@@ -65,8 +65,8 @@ function tick() {
  * This line is used to mask the original image.
  */
 function drawLineCanvas() {
-  var minimumLineWidth = 90;
-  var maximumLineWidth = 320;
+  var minimumLineWidth = 30;
+  var maximumLineWidth = 150;
   var lineWidthRange = maximumLineWidth - minimumLineWidth;
   var maximumSpeed = 50;
 
